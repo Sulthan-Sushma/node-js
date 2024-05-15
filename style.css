@@ -1,0 +1,124 @@
+@import url('https://founts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&font-family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+body{
+    background: #282828;
+    overflow: hidden;
+}
+nav{
+    background: #2c2e30;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    height: 60px;
+    padding: 0 100px;
+}
+nav.logo{
+    cursor: pointer;
+}
+nav .nav-items{
+    display: flex;
+    flex: 1;
+    padding: 0 0 0 40px;
+    margin-left: 330px;
+}
+.nav-items a{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 15px;
+}
+.nav-items a i{
+    color: #368338e1;
+    align-items: center;
+    padding: 5px;   
+}
+nav form{
+    display: flex;
+    height: 40px;
+    padding: 2px;
+    background: #1e232b;
+    min-width: 18% !important;
+    border-radius: 30px;
+    border: 1px solid rgba(155, 155, 155,0.2);
+}
+nav form .search-data{
+    width: 100%;
+    height: 100%;
+    padding:0 10px;
+    color: #fff;
+    font-size: 17px;
+    border:none;
+    font-weight: 500;
+    background: none;
+}
+nav form button{
+    padding: 0 15px;
+    color:#fff;
+    font-size: 17px;
+    background: #368338e1;
+    border: none;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    cursor: pointer;
+}
+nav form button:hover{
+    background: #2d6b2fe1;
+}
+.content{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+.content h1{
+    justify-content: space-between;
+    letter-spacing: 10px;
+    font-family: 'ER Garamond',serif;
+}
+.content p{
+    margin-top: 10px;
+}
+.content p i{
+    color: #368338e1;
+}
+.movie-items{
+    width: 100%;
+    height: 10%;
+    margin-top: 30px;
+    margin-left: 1%;
+    padding: 20px;
+}
+.column{
+    float:left;
+    width:16.66%;
+    cursor:pointer;
+}
+.column img{
+    width: 200px; 
+    height: auto;
+}
+.row::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+.column h4,span{
+    color: white;
+}
+.column:hover{
+    transform: scale(1.1);
+}
+.content p img{
+    float: left;
+    margin-left: 60px;
+    border-radius: 10px;
+}
+
